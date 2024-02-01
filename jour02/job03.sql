@@ -1,3 +1,7 @@
+-- Ajout des données à la table "étage"
+INSERT INTO etage (nom, numéro, superficie) VALUES
+('RDC', 0, 500)
+('R+1', 1, 500)
 -- Ajout des données à la table "salle"
 INSERT INTO salle (nom, id_etage, capacite) VALUES
     ('Lounge', 1, 100),
